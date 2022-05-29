@@ -26,7 +26,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
 
   const shareInfo = () => {
     navigator.share({
-      title: `Dados do Covid19 - ${country}`,
+      title: `Dados do Covid 19 - ${country}`,
       text: textCovid19,
       url: 'https://covid19dio.netlify.app/'
     })
@@ -52,7 +52,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     <Card>
       <CardPanelContentStyled>
         <div>
-          <Typography variant="h5" component="span" color="primary">COVID19</Typography>
+          <Typography variant="h5" component="span" color="primary">COVID-19</Typography>
           <Typography variant="h6" component="span" color="primary">Painel Coronavírus</Typography>
           <Typography variant="body2" component="span" color="primary">Atualizado em: {updateAt}</Typography>
           <div className="pt-2">
