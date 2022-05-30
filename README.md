@@ -1,5 +1,5 @@
 # Criando uma Progressive Web Application (PWA)
-<p>Projeto utilizando React para a criação de uma aplicação que será executada no browser, 
+<p>Projeto utilizando React na criação de uma aplicação que será executada no browser, 
   contendo algumas funcionalidades de um aplicativo nativo sem precisar subir para a Play Store ou App Store.</p>
 
 <div align="center">
